@@ -1,6 +1,5 @@
 # DGQT Trading Strategy
 
-# Strategy
 - Parameters: {'lookback': days, 'thresh_rsi': threshold RSI, 'thresh_so': threshold stochastic oscillator}
 - {14, 80, 80}, {14, 80.5, 81}, {14, 81, 82}
 - For each parameter set:
