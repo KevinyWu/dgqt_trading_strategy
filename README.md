@@ -1,5 +1,6 @@
 # DGQT Trading Strategy
 My strategy for the UChicago Derivatives Group Quant Trading paper trading project, backtested with data from 2010-2020 6E, CL, ES, GC, NQ, and ZC.
+
 **Strategy**
 - Parameters: {'lookback': days, 'thresh_rsi': threshold RSI, 'thresh_so': threshold stochastic oscillator}
 - {14, 80, 80}, {14, 80.5, 81}, {14, 81, 82}
