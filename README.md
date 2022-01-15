@@ -2,11 +2,11 @@
 My strategy for the UChicago Derivatives Group Quant Trading paper trading project, backtested with data from 2010-2020 for 6E, CL, ES, GC, NQ, and ZC.
 
 **Strategy**
-- Parameters: {'lookback': days, 'thresh_rsi': threshold RSI, 'thresh_so': threshold stochastic oscillator}
-- {14, 80, 80}, {14, 80.5, 81}, {14, 81, 82}
+- Parameters: `{'lookback': days, 'thresh_rsi': threshold RSI, 'thresh_so': threshold stochastic oscillator}`
+- `{14, 80, 80}, {14, 80.5, 81}, {14, 81, 82}`
 - For each parameter set:
-    - Sell if for past N days: RSI > R, SO > S
-    - Buy if for past N days: RSI < 100-R, SO < 100-S
+    - Sell if for past `N` days: `RSI > R and SO > S`
+    - Buy if for past `N` days: `RSI < 100-R and SO < 100-S`
     - Otherwise do nothing
     
 **Determining weight of parameter sets within a commodity**
