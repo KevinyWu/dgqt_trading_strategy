@@ -1,6 +1,6 @@
 # DGQT Trading Strategy
 
-<img src="https://github.com/KevinyWu/kevinywu.github.io/blob/main/images/projects/dgqt.png" alt="drawing" width="250"/>
+<img src="https://github.com/KevinyWu/KevinyWu/blob/main/images/dgqt.png" alt="drawing" width="250"/>
 
 My strategy for the UChicago Derivatives Group Quant Trading paper trading project, backtested with data from 2010-2020 for 6E, CL, ES, GC, NQ, and ZC.
 
